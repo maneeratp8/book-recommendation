@@ -23,19 +23,19 @@
  }
 
  .navcolor {
-      background-color:#1f4b6e ; /* ใช้สีฟ้า */
-       width: 100%
-    
-    }
+   background-color: #1f4b6e;
+   /* ใช้สีฟ้า */
+   width: 100%
+ }
 
-    .f-nav {
+ .f-nav {
    font-family: 'Thasadith', sans-serif;
-    color: #ffffff;
+   color: #ffffff;
  }
 
  .covertext {
    font-family: 'Anuphan', sans-serif;
-  color: #ffffff;
+   color: #ffffff;
  }
 
  .covertext2 {
@@ -43,7 +43,7 @@
    font-weight: 300;
    font-style: normal;
    font-size: 60px;
-    color: #ffffff;
+   color: #ffffff;
  }
 
  .covertext3 {
@@ -75,76 +75,100 @@
    font-family: 'Anuphan', sans-serif;
    font-weight: 600;
    font-style: normal;
-    color:#1f4b6e;
+   color: #1f4b6e;
  }
 
  h3 {
    font-family: 'Anuphan', sans-serif;
    font-weight: 600;
    font-style: normal;
-     color: #d5857b;
+   color: #d5857b;
    text-shadow: 2px 2px 3px rgba(173, 146, 146, 0.4);
  }
 
-h4 {
+ h4 {
    font-family: 'Anuphan', sans-serif;
    font-weight: 600;
    font-style: normal;
-     color: #ffffff;
+   color: #ffffff;
    text-shadow: 2px 2px 3px rgba(173, 146, 146, 0.4);
  }
-     .bodywall {
-  background-image: url("../images/wall4.webp"); /* ใช้ภาพพื้นหลัง */
-  background-repeat: no-repeat;                   /* ไม่ให้ภาพซ้ำ */
-  background-size: cover;                         /* ปรับขนาดภาพให้เต็มพื้นที่ */
-  background-position: top;
-     display: flex;
- 
-     }
+
+ .bodywall {
+   background-image: url("../images/wall4.webp");
+   /* ใช้ภาพพื้นหลัง */
+   background-repeat: no-repeat;
+   /* ไม่ให้ภาพซ้ำ */
+   background-size: cover;
+   /* ปรับขนาดภาพให้เต็มพื้นที่ */
+   background-position: top;
+   display: flex;
+
+ }
+
  .bgg-01 {
-  background-image: linear-gradient(to bottom, #c5d9f8, #e8d4ff); /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
-  height: 100vh;  /* ให้ความสูงเต็มหน้าจอ */
+   background-image: linear-gradient(to bottom, #c5d9f8, #e8d4ff);
+   /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
+   /* min-height: 80vh;   */
+   /* ให้ความสูงเต็มหน้าจอ */
  }
 
  .bgg-02 {
-  background-image: linear-gradient(to bottom,#e8d4ff, #efd9e3 ); /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
- min-height: 100vh  /* ให้ความสูงเต็มหน้าจอ */
-  
+   background-image: linear-gradient(to bottom, #e8d4ff, #efd9e3);
+   /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
+   /* min-height: 90vh   */
+   /* ให้ความสูงเต็มหน้าจอ */
+
  }
 
  .bgg-03 {
-  background-image: linear-gradient(to bottom,#efd9e3,#ffcca8 ); /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
- min-height: 100vh  /* ให้ความสูงเต็มหน้าจอ */
-  
+   background-image: linear-gradient(to bottom, #efd9e3, #ffcca8);
+   /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
+   /* min-height: 100vh   */
+   /* ให้ความสูงเต็มหน้าจอ */
+
  }
 
  .rounded-shadow-img {
-  border-radius: 15px; /* ทำให้มุมโค้งมน (ปรับเป็น 50% ถ้าอยากได้รูปทรงวงกลม) */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* เงาด้านล่าง */
-  width: 500px; 
-  height: auto;
-  display: block;
+   border-radius: 15px;
+   /* ทำให้มุมโค้งมน (ปรับเป็น 50% ถ้าอยากได้รูปทรงวงกลม) */
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+   /* เงาด้านล่าง */
+   width: 500px;
+   height: auto;
+   display: block;
  }
 
- .bg-bottom{
-  background-color:#ffcca8 ; /* ใช้สีฟ้า */
-  
+ .bg-bottom {
+   background-color: #ffcca8;
+   /* ใช้สีฟ้า */
+
  }
 
 
 
- 
+
  .bg-link {
-  background-image: url(../images/bg-02.JPEG); /* ใส่ URL ของภาพที่ต้องการ */
-  background-size: cover;       /* ให้รูปครอบเต็มพื้นที่ */
-  background-position: center;  /* จัดให้อยู่ตรงกลาง */
-  background-repeat: no-repeat; /* ไม่วนซ้ำ */
-  min-height: 100vh;            /* ความสูงเต็มหน้าจอ */
-  
-}
+   background-image: url(../images/bg-02.JPEG);
+   /* ใส่ URL ของภาพที่ต้องการ */
+   background-size: cover;
+   /* ให้รูปครอบเต็มพื้นที่ */
+   background-position: center;
+   /* จัดให้อยู่ตรงกลาง */
+   background-repeat: no-repeat;
+   /* ไม่วนซ้ำ */
+   min-height: 100vh;
+   /* ความสูงเต็มหน้าจอ */
 
-.colored-box {
-  background-color: #fcf5d9;  /* สีพื้นหลังเขียว */
-  /* padding: 10px; */
-  
-}
+ }
+
+ .colored-box {
+   background-color: #fcf5d9;
+   /* สีพื้นหลังเขียว */
+   /* padding: 10px; */
+
+ }
+
+ .responsive-img {
+  width: 100%;
+ }
