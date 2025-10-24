@@ -68,8 +68,10 @@
 
 
  p {
-   font-family: 'Thasadith', sans-serif;
+   font-family: 'Sarabun', sans-serif;
+    font-weight: 400;
  }
+
 
  h2 {
    font-family: 'Anuphan', sans-serif;
@@ -130,7 +132,7 @@
  }
 
  .bgg-04 {
-   background-image: linear-gradient(to bottom,#ffcca8,#fffae9);
+   background-image: linear-gradient(to bottom, #ffcca8, #fffae9);
    /* ไล่สีจากสีชมพูอ่อน ไปยังสีส้ม */
    /* min-height: 100vh   */
    /* ให้ความสูงเต็มหน้าจอ */
@@ -171,9 +173,13 @@
  }
 
  .responsive-img {
-  width: 100%;
+   width: 100%;
  }
 
- .footertext{
+ .footertext {
    color: #7a5758;
+   font-size: 0.85rem;
+   line-height: 1.5;
+   /* ทำให้ดูอ่อนลงนิด */
+
  }
